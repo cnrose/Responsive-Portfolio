@@ -1,0 +1,176 @@
+/*****980px styling*****/
+
+@media screen and (max-width: 980px) {
+	.container {
+		width: 75%;
+	}
+
+	/**header styling**/
+	.name {
+		font-size: 22px;
+		width: 150px;
+		padding: 20px 10px 20px 20px;
+	}
+	
+	.navigation {
+		padding: 10px;
+	}
+
+	nav ul li {
+		padding: 10px 5px 10px 5px;
+	}
+	
+	/**about styling**/
+	.about {
+		width: 50%;
+		margin: 50px 10px 45px 50px;
+	}
+
+	.about img {
+		float: none;
+	}
+
+	/*contact page styling*/
+	.contactForm {
+		width: 50%;
+		margin: 50px 10px 45px 50px;
+	}
+	
+	/**Portfolio Styling**/
+	.wrapper {
+		width: 50%;
+		margin: 50px 10px 45px 50px;
+	}
+
+	/**aside styling**/
+	aside {
+		width: 22%;
+	}
+
+	aside h3 {
+		font-size: 18px;
+	}
+
+	aside ul li {
+		padding: 1px;
+	}
+}
+
+/*****768px styling*****/
+@media screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+
+	/**header styling**/
+	.navigation {
+		padding: 20px;
+	}
+
+	/**about styling**/
+	.about {
+		width: 90%;
+		margin: 20px;
+	}
+
+	.about img {
+		float: left;
+	}
+	
+	/*contact page styling*/
+	.contactForm {
+		width: 90%;
+		margin: 20px;
+	}	
+
+	/**Portfolio Styling**/
+	.wrapper {
+		width: 90%;
+		margin: 20px;
+		padding: 20px 20px 0px 20px;
+	}
+
+	/**aside styling**/
+	aside {
+		width: 90%;
+		float: left;
+		margin: 20px;
+		padding: 20px;
+	}
+}
+
+/*****640px styling*****/
+@media screen and (max-width: 640px) {
+	.container {
+		width: 100%;
+		max-width: 640px;
+		margin: 0px;
+	}
+
+	/**header styling**/
+	header {
+		height: 120px;
+	}
+
+	.name {
+		width: 95%;
+    	max-width: 640px;
+    	margin: 0px;
+    	float: left;
+    	height: 20px;
+	}
+
+	.navigation {
+    	float: left;
+    	background-color: #ffffff;
+    	max-width: 640px;
+    	padding: 10px;
+    	margin: 0px;
+    	text-align: center;
+   		width: 95%;
+	}
+
+	nav ul li {
+		padding: 10px 20px 10px 20px;
+		margin: 0px;
+	}
+
+	/**about styling**/
+	.about {
+		margin: 10px;
+		float: left;
+	}
+	
+	.about img {
+		padding: 0px 140px 0px 140px;
+    	margin: 0;
+	}
+	.about p {
+		float: left;
+	}
+
+	/**Portfolio Styling**/
+	.wrapper {
+		margin: 10px;
+		float: left;
+		padding: 20px 20px 0px 20px;
+	}
+	
+	.Portfolio h3 {
+		font-size: 22px;
+	}	
+
+	/*contact page styling*/
+	.contactForm {
+		margin: 10px;
+		float: left;
+	}
+
+	/**aside styling**/
+	aside {
+		float: left;
+		max-width: 640px;
+		margin: 10px;
+		padding: 20px;
+	}
+}
